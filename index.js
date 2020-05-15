@@ -54,7 +54,7 @@ function exerciseDog (dogName, dogBreed)
  let e=routine[4](dogName, dogBreed)
  let f=routine[5](dogName, dogBreed)
  let g=[a,b,c,d,e,f]
- return g ;
+ 
   
   
 }
