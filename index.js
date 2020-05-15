@@ -52,9 +52,9 @@ function exerciseDog (dogName, dogBreed)
  let c=routine[2](dogName, dogBreed)
  let d=routine[3](dogName, dogBreed)
  let e=routine[4](dogName, dogBreed)
- let f=routine[5](dogName, dogBreed)
+ let f=routine.unleashDog(dogName, dogBreed)
  let g=[a,b,c,d,e,f]
- 
+ return g ;
   
   
 }
