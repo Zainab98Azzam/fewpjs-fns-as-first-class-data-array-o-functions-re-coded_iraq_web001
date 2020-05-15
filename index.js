@@ -28,12 +28,13 @@ let routine =[wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]
 function exerciseDog (dogName, dogBreed){
   let routine =[wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]
  let a=routine.wakeDog(dogName, dogBreed)
-let a=routine.wakeDog(dogName, dogBreed)
-let a=routine.wakeDog(dogName, dogBreed)
-let d=routine.wakeDog(dogName, dogBreed)
+ let b=routine.leashDog(dogName, dogBreed)
+ let c=routine.walkToPark(dogName, dogBreed)
+ let d=routine.throwFrisbee(dogName, dogBreed)
  let e=routine.walkHome(dogName, dogBreed)
  let f=routine.unleashDog(dogName, dogBreed)
- 
+ let g=[a,b,c,d,e,f]
+ return g ;
   
   
 }
